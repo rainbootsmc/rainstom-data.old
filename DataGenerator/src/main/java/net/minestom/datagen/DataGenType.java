@@ -37,6 +37,7 @@ public enum DataGenType {
     ITEM_TAGS("tags/item_tags", new ItemTagGenerator()),
 
     DAMAGE_TYPES("damage_types", new DamageTypeGenerator()),
+    SOUND_TYPES("sound_types", new SoundTypeGenerator()), // SoundTypeGeneratorを追加
 
     BLOCK_LOOT_TABLES("loot_tables/block_loot_tables", new BlockLootTableGenerator()),
     CHEST_LOOT_TABLES("loot_tables/chest_loot_tables", new ChestLootTableGenerator()),
